@@ -131,3 +131,7 @@ dmypy.json
 
 # OSX DS
 .DS_Store
+
+
+# EDA - Notebooks
+EDA_Nick_W.ipynb
