@@ -19,7 +19,6 @@
 #### 6. Evaluation
 #### 7. Appendix
 #### Repo Navigation
-<br>
 
 ---
 ## 1. Business Understanding
