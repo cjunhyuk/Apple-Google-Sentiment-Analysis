@@ -110,10 +110,16 @@ Word cloud that was produced for visualization can be seen here:
 # Repo Navigation
 ---
 
-├──data. 
-├──img  
-├──EDA.ipynb
-├──.gitignore. 
-├──Project 4 Final Notebook.ipynb.
-├──Project 4 Presentation.pdf 
-├──README.md. 
+├── [data/](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/tree/master/data)    -------------------------------------> Data used for this project collected by data.world.
+
+├── [img/](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/tree/master/img) --------------------------------------> All images used in the notebook and README.md.
+
+├── [.gitignore](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/.gitignore) ---------------------------------> .gitignore used for the project.
+
+├── [Final_Notebook - Jupyter Notebook.pdf](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Final_Notebook%20-%20Jupyter%20Notebook.pdf)            ---> A PDF of the final project notebook.
+
+├── [Final_Notebook.ipynb](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Final_Notebook.ipynb)              ---------------------> The jupyter notebook containing the finalized code.
+
+├── [Presentation.pdf](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Presentation.pdf)              --------------------------> A PDF of the Google Slides presentaion .
+
+├── [README.md](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/README.md)              ------------------------------> README.md for the project (you are here now).
