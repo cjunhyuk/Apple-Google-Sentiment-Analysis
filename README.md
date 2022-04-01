@@ -21,7 +21,12 @@ Our goal for this project is to utilize Natural Language Processing(**NLP**) to 
 --- 
 # 3. Data
 --- 
-The dataset that we used for this project is from [**data.world**](https://data.world/crowdflower/brands-and-product-emotions) 
+The dataset that we used for this project is from [**data.world**](https://data.world/crowdflower/brands-and-product-emotions)
+
+# Limitations
+- Data is from only attendees of Austin's South by Southwest Festival
+- From the year 2013
+- We do not know the method of how they specifically gathered this data or the criteria the used to evaluate the sentiment
 
 ---
 # 4. EDA and Preprocessing
