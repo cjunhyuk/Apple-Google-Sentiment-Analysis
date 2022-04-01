@@ -11,7 +11,7 @@
 ---
 # 1. Business Understanding
 ---
-In the ever expanding smartphone market, it is essential to keep up with customer demand. AT&T is deciding on which product brands to offer customers in their physical and online shops and have hired our data science team to help. We have been tasked with investigating the sentiment that customers express online towards differnt product lines to help make a decison on what products should be stocked immediately. We then will use this data to create a model that can predict customers' thoughts on a product so that the client can remain up to date with the product demands of their clientele.
+In the ever expanding smartphone market, it is essential to keep up with customer demand. AT&T is deciding on which product brands to offer customers in their physical and online shops and have hired our data science team to help. We have been tasked with investigating the sentiment that customers express online towards different product lines to help make a decision on what products should be stocked immediately. We then will use this data to create a model that can predict customers' thoughts on a product so that the client can remain up to date with the product demands of their clientele.
 
 ---
 # 2. Introduction
@@ -21,7 +21,12 @@ Our goal for this project is to utilize Natural Language Processing(**NLP**) to 
 --- 
 # 3. Data
 --- 
-The dataset that we used for this project is from [**data.world**](https://data.world/crowdflower/brands-and-product-emotions) 
+The dataset that we used for this project is from [**data.world**](https://data.world/crowdflower/brands-and-product-emotions)
+
+# Limitations
+- Data is from only attendees of Austin's South by Southwest Festival
+- From the year 2013
+- We do not know the method of how they specifically gathered this data or the criteria the used to evaluate the sentiment
 
 ---
 # 4. EDA and Preprocessing
@@ -42,7 +47,7 @@ As you can see, Apple has more Positive and Negative tweets when compared to Goo
 
 <br>
 
-For the preprocessing step of this dataset, we cleaned up the dataset and changed the original columns from `emotion_in_tweet_is_directed_at` and `	is_there_an_emotion_directed_at_a_brand_or_product` to `product` and `emotion`, respectively. We converted the products and binend them into two categories (Apple and Google) to make the data easier to work with.We also converted the sentiment values to numeric values and binned them where: `Positive emotion: 0`, `Negative emotion: 1`, `No emotion toward brand or product: 2`, and `I can't tell: 3` to make it easier to interpret the results of our model. After this initial cleanup, we tokenized our data, made all the text lowercase, and removed any special characters and numerics. Once this preprocessing and cleaning was conducted we were able to run some machine learning models on our cleaned data.
+For the preprocessing step of this dataset, we cleaned up the dataset and changed the original columns from `emotion_in_tweet_is_directed_at` and `	is_there_an_emotion_directed_at_a_brand_or_product` to `product` and `emotion`, respectively. We converted the products and binned them into two categories (Apple and Google) to make the data easier to work with. We also converted the sentiment values to numeric values and binned them where: `Positive emotion: 0`, `Negative emotion: 1`, `No emotion toward brand or product: 2`, and `I can't tell: 3` to make it easier to interpret the results of our model. After this initial cleanup, we tokenized our data, made all the text lowercase, and removed any special and numerics characters. Once this preprocessing and cleaning was conducted we were able to run some machine learning models on our cleaned data.
 
 ---
 # 5. Modeling
@@ -61,9 +66,13 @@ We decided to split the ensemble into two different sets to see how the model wo
 
 <br> 
 
+<<<<<<< HEAD
 Below is the graph confusion matrix and evaluation metrics for Apple
 
 ![Apple](img/Ensemble%20Apple.png)
+=======
+Below is the confusion matrix and evaluation metrics for ![Apple](img/Ensemble%20Apple.png)
+>>>>>>> f557bef057faf97501762a145b59e202d8671dac
 
 <br>
 
