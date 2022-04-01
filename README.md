@@ -9,6 +9,19 @@
 - [**Nicholas Wertz**](https://github.com/njw27)
 
 ---
+## Table of Contents
+---
+### [1. Business Understanding](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#1-business-understanding)
+### [2. Introduction](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#2-introduction)
+### [3. Data](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#3-data)
+### [4. EDA and Preprocessing](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#4-eda-and-preprocessing)
+### [5. Modeling](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#5-modeling)
+### [6. Evaluation](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#6-evaluation)
+### [7. Appendix](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#7-appendix)
+### [Repo Navigation](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis#repo-navigation)
+<br>
+
+---
 # 1. Business Understanding
 ---
 In the ever expanding smartphone market, it is essential to keep up with customer demand. AT&T is deciding on which product brands to offer customers in their physical and online shops and have hired our data science team to help. We have been tasked with investigating the sentiment that customers express online towards different product lines to help make a decision on what products should be stocked immediately. We then will use this data to create a model that can predict customers' thoughts on a product so that the client can remain up to date with the product demands of their clientele.
