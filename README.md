@@ -120,6 +120,6 @@ Word cloud that was produced for visualization can be seen here:
 
 ├── [Final_Notebook.ipynb](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Final_Notebook.ipynb)              ---------------------> The jupyter notebook containing the finalized code.
 
-├── [Presentation.pdf](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Presentation.pdf)              --------------------------> A PDF of the Google Slides presentaion .
+├── [Presentation.pdf](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/Presentation.pdf)              --------------------------> A PDF of the Google Slides presentaion.
 
 ├── [README.md](https://github.com/cjunhyuk/Apple-Google-Sentiment-Analysis/blob/master/README.md)              ------------------------------> README.md for the project (you are here now).
