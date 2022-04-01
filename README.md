@@ -66,13 +66,9 @@ We decided to split the ensemble into two different sets to see how the model wo
 
 <br> 
 
-<<<<<<< HEAD
 Below is the graph confusion matrix and evaluation metrics for Apple
 
 ![Apple](img/Ensemble%20Apple.png)
-=======
-Below is the confusion matrix and evaluation metrics for ![Apple](img/Ensemble%20Apple.png)
->>>>>>> f557bef057faf97501762a145b59e202d8671dac
 
 <br>
 
@@ -108,7 +104,7 @@ However, placing more weight/emphasis on restocking Apple products may be more b
 # 7. Appendix
 ---
 
-Word cloud that was produced for visualization can be seen here 
+Word cloud that was produced for visualization can be seen here:
 ![Word Cloud](img/apple_google_wordcloud.png)
 ---
 # Repo Navigation
