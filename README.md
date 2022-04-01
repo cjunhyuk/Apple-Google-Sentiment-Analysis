@@ -26,11 +26,19 @@ The dataset that we used for this project is from [**data.world**](https://data.
 ---
 # 4. EDA and Preprocessing
 ---
-The dataset that we used had 8161 total tweets from the SXSW conference. The tweet data was split between tweets about Apple and Google; however, there were almost twice as many tweets about Apple when compared to Google which is ![represented in this bar graph](img/Bar_chart_s10.png). 
+The dataset that we used had 8161 total tweets from the SXSW conference. The tweet data was split between tweets about Apple and Google; however, there were almost twice as many tweets about Apple when compared to Google which is represented in this bar graph below.
+
+![bar graph](img/Bar_chart_s10.png). 
 
 <br>
 
-We next wanted to look at the sentiment split in the data which is ![represented in this bar graph](img/Bar_chart_s12.png). As you can see, Apple has more Positive and Negative tweets when compared to Google, and Google exhibits a more neutral sentiment. It is important to note that these percentages are based on the number of these product's respective tweets in the dataset. So 35% of the total tweets about Apple are positive (insert number here) and about 18% of the total tweets about Google are positive (which is about 550 tweets in total).
+We next wanted to look at the sentiment split in the data which is represented in this bar graph below.
+
+![bar graph](img/Bar_chart_s12.png) 
+
+<br>
+
+As you can see, Apple has more Positive and Negative tweets when compared to Google, and Google exhibits a more neutral sentiment. It is important to note that these percentages are based on the number of these product's respective tweets in the dataset. So 35% of the total tweets about Apple are positive (insert number here) and about 18% of the total tweets about Google are positive (which is about 550 tweets in total).
 
 <br>
 
@@ -45,16 +53,23 @@ Our baseline model produced an accuracy score of 65% and a precision score of 59
 
 <br>
 
-The final model that we utilized was an ensemble model that was composed of a RandomForestClassifier and MultinomialNaiveBayes model with optimized hyperparameters from GridSearchCV. Our final accuracy score stayed about the same at 65%, but our precision score
-![increased](img/Ensemble%20All.png). We decided to split the ensemble into two different sets to see how the model would perform for Apple and Google individually. 
+The final model that we utilized was an ensemble model that was composed of a RandomForestClassifier and MultinomialNaiveBayes model with optimized hyperparameters from GridSearchCV. Our final accuracy score stayed about the same at 65%, but our precision score increased.
+
+![increased](img/Ensemble%20All.png)
+
+We decided to split the ensemble into two different sets to see how the model would perform for Apple and Google individually. 
 
 <br> 
 
-Below is the graph confusion matrix and evaluation metrics for ![Apple](img/Ensemble%20Apple.png)
+Below is the graph confusion matrix and evaluation metrics for Apple
+
+![Apple](img/Ensemble%20Apple.png)
 
 <br>
 
-Below is the confusion matrix and evaluation metrics for ![Google](img/Ensemble%20Google.png)
+Below is the confusion matrix and evaluation metrics for Google.
+
+![Google](img/Ensemble%20Google.png)
 
 <br>
 
@@ -84,7 +99,8 @@ However, placing more weight/emphasis on restocking Apple products may be more b
 # 7. Appendix
 ---
 
-Word cloud that was produced for visualization can be seen ![here](img/apple_google_wordcloud.png)
+Word cloud that was produced for visualization can be seen here 
+![Word Cloud](img/apple_google_wordcloud.png)
 ---
 # Repo Navigation
 ---
